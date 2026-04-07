@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebGIS Kaltim</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+    <!-- Dashboard statistik -->
+    <div class="panel">
+        <h3>Dashboard Hotspot</h3>
+        <p>Total hotspot: 124</p>
+    </div>
+
+    <!-- Peta -->
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/map.js"></script>
+
+    <!--karhutla  -->
+    <div class="panel">
+    <h3>Dashboard Karhutla</h3>
+    <p>Total Hotspot: <span id="hotspotCount">0</span></p>
+    <p>Area Risiko Tinggi: <span id="riskArea">0</span> ha</p>
+    <p>Status: Waspada</p>
+    </div>
+</body>
+</html>
